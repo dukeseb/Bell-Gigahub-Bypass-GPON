@@ -55,6 +55,7 @@
 `reboot`
 
 **Access Web Interface (192.168.1.10) [Firefox/Safari may cause problems]**
+
 *Login root/SUGAR2A041*
 
 **Expand the Cog**
@@ -78,6 +79,7 @@ Click Save/Apply
 <img src="https://i.imgur.com/2DuWsMw.png">
 
 **Remove SFP and Place in Router**
+
 *Configure Router with VLAN 35*
 <img src="https://i.imgur.com/xl34tRv.png">
 
