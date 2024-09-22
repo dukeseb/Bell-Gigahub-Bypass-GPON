@@ -24,9 +24,11 @@
 *Password* `SUGAR2A041`
 
 **Configure SFP over SSH**
+
 `ssh -oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedKeyTypes=+ssh-rsa -oKexAlgorithms=+diffie-hellman-group14-sha1 ONTUSER@192.168.1.10`
 
 **Verify image currently being used**
+
 `fw_printenv committed_image`
 
 > *If on Zero image for 1*
