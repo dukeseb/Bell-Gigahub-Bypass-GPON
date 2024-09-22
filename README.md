@@ -80,3 +80,10 @@ Click Save/Apply
 
 > ***Note After comitting to a new image your SSH key and Login will change you can access the SFP to do further configuration with the following (you may have to delete your stored key from your known keys file)***
 > `ssh -oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedKeyTypes=+ssh-rsa -oKexAlgorithms=+diffie-hellman-group14-sha1 root@192.168.1.10`
+
+
+---
+
+Thank you to the 8311 Discord Community for helping sort this out
+
+https://github.com/rajkosto/alcatel_lucent-lantiq_falcon/tree/master
