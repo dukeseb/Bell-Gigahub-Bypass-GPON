@@ -9,7 +9,7 @@
 
 **Login to Gigahub interface > Advanced Tools & Settings > WAN**
 
-*Verify Mode GPON*
+*Verify Mode GPON (If it says XG-PON these instructions will not work)*
 <img src="https://i.imgur.com/DIXJxvk.png">
 
 **Download / Extract Firmware**
