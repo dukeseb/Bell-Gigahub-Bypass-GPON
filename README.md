@@ -47,8 +47,11 @@
 
 
 **Switch to Custom mibs file**
+
 `uci set gpon.onu.mib_file='/etc/mibs/data_1v_8q.ini'`
+
 `uci commit`
+
 `reboot`
 
 **Access Web Interface (192.168.1.10) [Firefox/Safari may cause problems]**
