@@ -8,6 +8,7 @@
 **Retrieve ONT Serial Number from Back of Gigahub. Begins with “SMB”**
 
 **Login to Gigahub interface > Advanced Tools & Settings > WAN**
+
 *Verify Mode GPON*
 <img src="https://i.imgur.com/DIXJxvk.png">
 
@@ -32,29 +33,29 @@
 
 `fw_printenv committed_image`
 
-> *If on Zero image for 1*
+> *If on Zero, image to 1 (Enter these commands)*
+>
+>`mtd -e image1 write /tmp/firmware.img image1`
+>
+>`fw_setenv image1_version firmware`
+>
+>`fw_setenv image1_is_valid 1`
 > 
->         `mtd -e image1 write /tmp/firmware.img image1`
+>`fw_setenv target oem-generic`
+>
+>`fw_setenv committed_image 1`
+         
+> *If on One, image to 0 (Enter these commands)*
 > 
->         `fw_setenv image1_version firmware`
+>`mtd -e image0 write /tmp/firmware.img image0`
 > 
->         `fw_setenv image1_is_valid 1`
+>`fw_setenv image0_version firmware`
 > 
->         `fw_setenv target oem-generic`
+>`fw_setenv image0_is_valid 1`
 > 
->         `fw_setenv committed_image 1`
->         
-> *If on One image for 0*
+>`fw_setenv target oem-generic`
 > 
->         `mtd -e image0 write /tmp/firmware.img image0`
-> 
->         `fw_setenv image0_version firmware`
-> 
->         `fw_setenv image0_is_valid 1`
-> 
->         `fw_setenv target oem-generic`
-> 
->         `fw_setenv committed_image 0`
+>`fw_setenv committed_image 0`
 
 
 **Switch to Custom mibs file**
@@ -67,7 +68,7 @@
 
 **Access Web Interface (192.168.1.10) [Firefox/Safari may cause problems]**
 
-*Login root/SUGAR2A041*
+Login *root/SUGAR2A041*
 
 **Expand the Cog**
 <img src="https://i.imgur.com/n8Zv3xL.png">
@@ -82,12 +83,13 @@
 <img src="https://i.imgur.com/FADAdnl.png">
 
 **Scroll down and ensure this box it checked for custom mibs**
-<img src="https://i.imgur.com/DLhBaNE.png">
+
 *Scroll down to save*
+<img src="https://i.imgur.com/DLhBaNE.png">
 
 **Click the unsaved/changes link**
 
-Click Save/Apply
+*Click Save/Apply*
 <img src="https://i.imgur.com/2DuWsMw.png">
 
 **Remove SFP and Place in Router**
