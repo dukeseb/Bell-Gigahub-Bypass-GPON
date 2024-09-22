@@ -17,6 +17,7 @@
 > - Rename `alcatel-g010sp_new_busybox_theme-squashfs.image` to `firmware.image`
 
 **Secure Copy Firmware to SFP**
+
 *From Linux / Mac open Terminal*
 
 `scp -O -oKexAlgorithms=+diffie-hellman-group1-sha1 -oHostKeyAlgorithms=+ssh-dss firmware.img ONTUSER@192.168.1.10:/tmp/firmware.img` 
@@ -32,17 +33,27 @@
 `fw_printenv committed_image`
 
 > *If on Zero image for 1*
+> 
 >         `mtd -e image1 write /tmp/firmware.img image1`
+> 
 >         `fw_setenv image1_version firmware`
+> 
 >         `fw_setenv image1_is_valid 1`
+> 
 >         `fw_setenv target oem-generic`
+> 
 >         `fw_setenv committed_image 1`
 >         
 > *If on One image for 0*
+> 
 >         `mtd -e image0 write /tmp/firmware.img image0`
+> 
 >         `fw_setenv image0_version firmware`
+> 
 >         `fw_setenv image0_is_valid 1`
+> 
 >         `fw_setenv target oem-generic`
+> 
 >         `fw_setenv committed_image 0`
 
 
@@ -75,6 +86,7 @@
 *Scroll down to save*
 
 **Click the unsaved/changes link**
+
 Click Save/Apply
 <img src="https://i.imgur.com/2DuWsMw.png">
 
@@ -86,6 +98,7 @@ Click Save/Apply
 ---
 
 > ***Note After comitting to a new image your SSH key and Login will change you can access the SFP to do further configuration with the following (you may have to delete your stored key from your known keys file)***
+> 
 > `ssh -oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedKeyTypes=+ssh-rsa -oKexAlgorithms=+diffie-hellman-group14-sha1 root@192.168.1.10`
 
 
