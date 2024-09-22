@@ -1,4 +1,4 @@
-# How to Bypass Gigahub for Bell Aliant
+# How to Bypass Gigahub for Bell Aliant (GPON)
 **Purchase SFP Module Alcatel Lucent G-010S-P**
 > https://www.ebay.ca/itm/156370657359
 
