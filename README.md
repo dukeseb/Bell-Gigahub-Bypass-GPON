@@ -15,7 +15,7 @@
 **Download / Extract Firmware**
 > https://mega.nz/file/lckmXYrA#tvu0ZuUYufVdpO_Ewi1foxz9vhaLSnx-e4ebpN7p_LQ
 > - Duplicate the following file `alcatel-g010sp_new_busybox_theme-squashfs.image`
-> - Rename `alcatel-g010sp_new_busybox_theme-squashfs.image` to `firmware.image`
+> - Rename `alcatel-g010sp_new_busybox_theme-squashfs.image` to `firmware.img`
 
 **Secure Copy Firmware to SFP**
 
