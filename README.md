@@ -37,26 +37,31 @@
 >
 >`mtd -e image1 write /tmp/firmware.img image1`
 >
->`fw_setenv image1_version firmware`
+>`fw_setenv image1_version firmware` (if you have internet/tv/phone replace firmware with 3FE56853BOPD09)
 >
 >`fw_setenv image1_is_valid 1`
 > 
 >`fw_setenv target oem-generic`
 >
 >`fw_setenv committed_image 1`
+>
+>`reboot`
          
 > *If on One, image to 0 (Enter these commands)*
 > 
 >`mtd -e image0 write /tmp/firmware.img image0`
 > 
->`fw_setenv image0_version firmware`
+>`fw_setenv image0_version firmware` (if you have internet/tv/phone replace firmware with 3FE56853BOPD09)
 > 
 >`fw_setenv image0_is_valid 1`
 > 
 >`fw_setenv target oem-generic`
 > 
 >`fw_setenv committed_image 0`
+>
+>`reboot`
 
+After imaging and doing a reboot go back and image the opposite
 
 **Switch to Custom mibs file**
 
@@ -94,7 +99,7 @@ Login *root/SUGAR2A041*
 
 **Remove SFP and Place in Router**
 
-*Configure Router with VLAN 35*
+*Configure Router with VLAN 35 - Note: Use 34 if you have phone/tv/internet service*
 <img src="https://i.imgur.com/xl34tRv.png">
 
 ---
