@@ -6,7 +6,7 @@
 > [https://www.ebay.ca/itm/156370657359](https://www.aliexpress.com/item/1005007300051703.html)
 
 **Media Converter (Not required but I find it useful during configuration)**
-> https://www.amazon.ca/10Gtek-Ethernet-Converter-1000Base-Tx-Certified/dp/B09TR4357R/ref=sr_1_4_sspa?crid=2ALES8F8EAMXW&dib=eyJ2IjoiMSJ9.WCFH4cqkAAthxCTUZwBxcHZ7b0XX8w9bD2ngbj9iqYfH7KtFGgYYeriqgZC7q9epHLUDK5QvxcswnE8TRmQBRsB5DnQGKfFpsHG9kBsp1iN9JhoKZRH3eyTgHeKsEblj9nERNNc-bek4dy-ouwh52j9txHvU5G8s175kJ0CclU3ONQ0SLrlh8Eepqsq9u0Pa3C1d0G4zV8SbA_6hKwsps9IAOJ4sZAnAoBu_lqzlPu5tv9nXJznmkGVeHaT8IrJeKkAnXxQk0uEwlbap8AHGUy8Wafcg5C1jPtkDukSe3bQ.6sRbncDfw83JukYxHINyETu9yuaF6RfniMCzH4gkSvg&dib_tag=se&keywords=fiber+media+converter&qid=1726950726&sprefix=fiber+media+converter%2Caps%2C106&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1
+> [https://www.amazon.ca/10Gtek-Ethernet-Converter-1000Base-Tx-Certified/dp/B09TR4357R/ref=sr_1_4_sspa?crid=2ALES8F8EAMXW&dib=eyJ2IjoiMSJ9.WCFH4cqkAAthxCTUZwBxcHZ7b0XX8w9bD2ngbj9iqYfH7KtFGgYYeriqgZC7q9epHLUDK5QvxcswnE8TRmQBRsB5DnQGKfFpsHG9kBsp1iN9JhoKZRH3eyTgHeKsEblj9nERNNc-bek4dy-ouwh52j9txHvU5G8s175kJ0CclU3ONQ0SLrlh8Eepqsq9u0Pa3C1d0G4zV8SbA_6hKwsps9IAOJ4sZAnAoBu_lqzlPu5tv9nXJznmkGVeHaT8IrJeKkAnXxQk0uEwlbap8AHGUy8Wafcg5C1jPtkDukSe3bQ.6sRbncDfw83JukYxHINyETu9yuaF6RfniMCzH4gkSvg&dib_tag=se&keywords=fiber+media+converter&qid=1726950726&sprefix=fiber+media+converter%2Caps%2C106&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1](https://a.co/d/08YZrmC7)
 
 **Retrieve ONT Serial Number from Back of Gigahub. Begins with “SMB”**
 
