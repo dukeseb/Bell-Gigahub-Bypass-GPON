@@ -1,4 +1,7 @@
 # How to Bypass Gigahub for Bell Aliant (GPON)
+
+***It is recommended that if you are on Bell Aliant you should wait until XGSPON brought online (Upgrades currently expected to be complete Summer 2026)***
+
 **Purchase SFP Module Alcatel Lucent G-010S-P**
 > https://www.ebay.ca/itm/156370657359
 
