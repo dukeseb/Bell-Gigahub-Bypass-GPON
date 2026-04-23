@@ -1,4 +1,4 @@
-# How to Bypass Gigahub for Bell Aliant (GPON)
+# How to Bypass Gigahub for DHCP (GPON Only)
 
 ***It is recommended that if you are on Bell Aliant you should wait until XGSPON brought online (Upgrades currently expected to be complete Summer 2026)***
 
